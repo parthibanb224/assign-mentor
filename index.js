@@ -3,7 +3,7 @@ const HTTP_SERVER = express();
 const cors = require('cors');
 const bodyParser = require('body-parser');
 require('dotenv').config()
-console.log(process.env)
+//console.log(process.env)
 
 HTTP_SERVER.use(cors());
 HTTP_SERVER.use(bodyParser.json());
